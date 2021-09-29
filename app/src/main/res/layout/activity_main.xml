@@ -1,0 +1,78 @@
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#C51162"
+
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:textColor="#FFFFFF"
+        android:text="NUMBER"
+        android:textSize="30sp"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/phrase"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#01579B"
+        android:paddingLeft="50dp"
+        android:paddingRight="30dp"
+        android:textColor="#FFFFFF"
+        android:text="PHRASES"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="#880E4F"
+        android:paddingLeft="55dp"
+        android:paddingRight="40dp"
+        android:textColor="#FFFFFF"
+        android:text="FAMILY  "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="#4A148C"
+        android:paddingLeft="50dp"
+        android:paddingRight="30dp"
+        android:text="COLORS"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:src="@drawable/family_father" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background=" #004D40"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:text="👑RAJPUT👑 (Moj gang creation)"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
+
+
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagii"
+
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:background="@color/white"
+        android:scaleType="center"
+          />
+    <TextView
+        android:layout_toRightOf="@id/imagii"
+        android:layout_marginTop="20dp"
+         android:id="@+id/mowii"
+        android:layout_width="match_parent"
+        android:text="mowik"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:gravity="center_vertical"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall" />
+    <TextView
+         android:id="@+id/america"
+        android:layout_toRightOf="@id/imagii"
+         android:layout_below="@id/mowii"
+        android:textColor="@color/white"
+        android:text="english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:gravity="center_vertical"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>
