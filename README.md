@@ -1,5 +1,5 @@
 # MOWIK
-A android application which introduce you with three different languages.\\
+A android application which introduce you with three different languages.\
 1)English--->text.\
 2)Hindi----->text.\
 3)Mowik----->audio.\
